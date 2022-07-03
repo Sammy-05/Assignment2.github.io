@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+}
+
+#back-cover{
+    width: 100%;
+}
+
+.header{
+    position: absolute;
+    z-index: 1;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+#back-cover p{
+    font-size: 3rem;
+    color: white;
+    left: 30%;
+}
+
+#back-cover input{
+    left: 30%;
+    top: 15%;
+    width: 35rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    border: 0;
+}
+
+#back-cover button{
+    z-index: 2;
+    height: 2.65rem;
+    width: 2.5rem;
+    top: 15%;
+    left: 65.1%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 0 0.3rem 0.3rem 0;
+    cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    body{
+        width: 1500px;
+    }
+    #back-cover{
+        width: 1500px;
+    }
+    #back-cover p{
+        font-size: 6rem;
+        top: 5%;
+        margin: 0;
+    }
+    #back-cover input{
+        top: 25%;
+        height: 4rem;
+        width: 40rem;
+    }
+    #back-cover button{
+        height: 4.2rem;
+        width: 4rem;
+        top: 25%;
+        margin-left: 500px;
+    }
+
+}
+#tasks{
+    position: absolute;
+    z-index: 1;
+    top: 28%;
+    left: 30%;
+    width: 38%;
+    min-height: 50vh;
+    max-height: 70vh;
+    background-color: white;
+    box-shadow:0px 0px 20px 0 darkgrey;
+    border-radius: 0.5rem;
+    overflow: scroll;
+}
+@media screen and (max-width:500px) {
+    #tasks{
+        top: 50%;
+        width: 750px;
+    }
+}
+#tasks ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    border-radius: inherit;
+}
+
+#tasks ul li{
+    padding: 0.9rem 1rem;
+    cursor: pointer;
+}
+
+#tasks ul li:hover{
+    background-color: rgb(218, 218, 218);
+    border-radius: inherit;
+}
+
+#tasks i{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color: rgb(58,58,58);
+}
+#left-side{
+    width: 20%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    border-radius: 10px;
+    
+}
+#right-side{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+#right-side>img{
+    border-radius: 10px;
+    object-fit: contain;
+
+} */
